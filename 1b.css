@@ -1,0 +1,24 @@
+div[class='wetterbox meldebox'] {
+    color: blue !important;
+}
+div[id='wetterbox meldebox']{
+    color: blue !important;
+}
+:focus-visible {
+    color: blue !important;
+}
+div:second-of-type {
+    color: blue !important;
+}
+div:second-of-type + div {
+    color: blue !important;
+}
+div:third-of-type {
+    color: blue !important;
+}
+div:third-of-type + div {
+    color: blue !important;
+}
+div ~ div {
+    color: blue !important;
+}
